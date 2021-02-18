@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>MKS_GEN_L V2.1 3D打印机主板 | Sci.＆ Tech</title>
+<title>搜索 | Sci.＆ Tech</title>
 
 <link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613671079684">
 
@@ -33,11 +35,21 @@
 <!--<script src="media/scripts/index.js"></script>-->
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.0/dist/fuse.basic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.3/ejs.min.js"></script>
+    <script src="https://lvshuici.github.io//media/gridea-search/gridea-search.js"></script>
+    <script src="https://lvshuici.github.io//media/gridea-search/result-template.ejs" type="text/ejs"></script>
 </head>
+
 <body>
-<div class="main gt-bg-theme-color-first">
     <style>
+        .searched-keyword {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+    <div class="main gt-bg-theme-color-first">
+        <style>
     /* 导航栏样式 */
     .navbar {
         position: relative;
@@ -190,56 +202,16 @@
         }
     }
 </script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    MKS_GEN_L V2.1 3D打印机主板
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021-02-19 ·
-                    </time>
-                    
-                        <a href="https://lvshuici.github.io/tag/RgS0gbktx/" class="post-tags">
-                            # MKS主板
-                        </a>
-                    
-                        <a href="https://lvshuici.github.io/tag/A6o5ExiBG_/" class="post-tags">
-                            # 3D打印
-                        </a>
-                    
-                </div>
-                <div class="post-content">
-                    <p>MKS作为专门定做3D打印机方案的公司，对3D打印机主板以及触控屏的设计方案已经非常成熟，尤其是3D打印主板，不光将mage2560和ramps1.4以及外接屏显模块集成，更是将外扩设备的数量上升到新的高度，12V长通接口可以作为挤出机风扇接口，12V的可控风扇接口可以直接连接鼓风机，通过上位机直接控制转速，从而达到控制风量的效果。这些成熟的方案是mage2560+ramps1.4无法比拟的，不光是从高度体积还是性能上都大大超越了mega2560+ramps1.4的方案。主板虽然非常好用，价格同样也很美丽。<br>
-☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️<br>
-<img src="https://lvshuici.github.io//post-images/1613669248684.png" alt="" loading="lazy"><br>
-但是，中国有句古话说得好，道高一尺，魔高一丈！本着只要是人生产出来的电路板，我们团队就能破解的中心思想，我们团队对MKS_GEN_L V2.1主板进行了破解。<br>
-<img src="https://lvshuici.github.io//post-images/1613669812213.png" alt="" loading="lazy"><br>
-破解道路非常艰辛，过程相当坎坷，由于我们是第一次进行破解，很多元器件都不认识。这时候就需要万能的淘宝，这里不得不说淘宝的识图功能着实是太强大了，很多电子原件查丝印，再识图，基本上都能判断出来时什么元器件，就这样，截止到现在，我们还差驱动模块就破解完全部的电路了。😁😁😁</p>
-<p>或许也只有A1的图纸才能装下工程量如此浩大的原理图了。<br>
-<img src="https://lvshuici.github.io//post-images/1613669974085.png" alt="" loading="lazy"></p>
-<p>破解接近尾声，寒假也快要结束，这么好的主板不分享出来还真的说不过去，我们凭着一份热爱（其实就是想少花钱😂😂😂）将这个主板破解出来，成为了第一个画出除驱动电路以外全部原理图的团队。MKS主板我们破解完就会将图片上传，做到真正的开源，让这个主板真正意义上得到开发！</p>
-
-                </div>
-            </article>
-        </div>
-
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/" class="post-title gt-a-link">
-                    marlin2.0固件参数配置（三）
-                </a>
+        <div id="gridea-search-result" data-update="1613671079684">
+            <div class="searching" style="font-size: 18px; margin-top: 50px;">
+                <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
+                <br><br>
+                <span style="font-size: 65%; color: #aaa">第一次搜索可能需要耗费较长时间构建索引，请耐心等待...</span>
             </div>
-        
-
-        
-
-        
-
-        
-
+            <div class="no-result" style="display:none; font-size: 20px; margin-top: 50px;">
+                <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;未搜索到相关文章，请更换关键词
+            </div>
+        </div>
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505</div>
     <div class="social-container">
@@ -271,6 +243,6 @@
 </script>
 
     </div>
-</div>
 </body>
+
 </html>

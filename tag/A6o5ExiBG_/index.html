@@ -1,187 +1,267 @@
 <html>
-
 <head>
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    3D打印 | Sci.＆ Tech
-</title>
-<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613670542716">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+<title>3D打印 | Sci.＆ Tech</title>
+
+<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613671079684">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://lvshuici.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
 </head>
-
 <body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://lvshuici.github.io/">
-                <img class="avatar" src="https://lvshuici.github.io//images/avatar.png?v=1613670542716" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    Sci.＆ Tech
-                </h1>
-            </div>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Sci.＆ Tech
         </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
                 
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
         </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1613671079684"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+        <div class="current-tag-container">
+            <h2 class="title gt-c-content-color-first">
+                #3D打印
+            </h2>
+        </div>
+        <div class="post-list-container">
+    <div class="post-inner">
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/">
+                            <span class="post-title gt-c-content-color-first">MKS_GEN_L V2.1 3D打印机主板</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2021-02-19 ·
+                        </time>
+                        
+                            <a href="https://lvshuici.github.io/tag/RgS0gbktx/" class="post-tag">
+                                # MKS主板
+                            </a>
+                        
+                            <a href="https://lvshuici.github.io/tag/A6o5ExiBG_/" class="post-tag">
+                                # 3D打印
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/" class="post-feature-image"
+                       style="background-image: url('https://lvshuici.github.io//post-images/mks_gen_l-v21-3d-da-yin-ji-zhu-ban.png')">
+                    </a>
+                
+            </div>
+        
     </div>
 </div>
-
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
-
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
-    <div class="i-card">
-        <b>标签：#
-        3D打印</b>
-    </div>
+        <div class="pagination-container">
     
+    
+</div>
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505</div>
+    <div class="social-container">
         
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/">
-                        MKS_GEN_L V2.1 3D打印机主板
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2021-02-19</time>
-                    
-                        <a href="https://lvshuici.github.io/tag/RgS0gbktx/" class="post-tag i-tag
-                            i-tag-other_1">
-            #MKS主板
-        </a>
-                        
-                        <a href="https://lvshuici.github.io/tag/A6o5ExiBG_/" class="post-tag i-tag
-                            i-tag-">
-            #3D打印
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            MKS作为专门定做3D打印机方案的公司，对3D打印机主板以及触控屏的设计方案已经非常成熟，尤其是3D打印主板，不光将mage2560和ramps1.4以及外接屏显模块集成，更是将外扩设备的数量上升到新的高度，12V长通接口可以作为挤出机风扇接口，12V的可控风扇接口可以直接连接鼓风机，通过上位机直接控制转速，从而达到控制风量的效果。这些成熟的方案是mage2560+ramps1.4无法比拟的，不光是从高度体积还是性能上都大大超越了mega2560+ramps1.4的方案。主板虽然非常好用，价格同样也很美丽。
-☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️
-
-但是，中国有句古话说得好，道高一尺，魔高一丈！本着只要是人生产出来的电路板，我们团队就能破解的中心思想，我们团队对MKS_GEN_L V2.1主板进行了破解。
-
-破解道路非常艰辛，过程相当坎坷，由于我们是第一次进行破解，很多元器件都不认识。这时候就需要万能的淘宝，这里不得不说淘宝的识图功能着实是太强大了，很多电子原件查丝印，再识图，基本上都能判断出来时什么元器件，就这样，截止到现在，我们还差驱动模块就破解完全部的电路了。😁😁😁
-——————————————————————————————————————————————
-或许也只有A1的图纸才能装下工程量如此浩大的原理图了。
-
-破解接近尾声，寒假也快要结束，这么好的主板不分享出来还真的说不过去，我们凭着一份热爱（其实就是想少花钱😂😂😂）将这个主板破解出来，成为了第一个画出除驱动电路以外全部原理图的团队。MKS主板我们破解完就会将图片上传，做到真正的开源，让这个主板真正意义上得到开发！
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
             
-                <!-- 翻页 -->
-                
-                </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
-
-                    <!-- 个人信息 -->
-                    
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://lvshuici.github.io//images/avatar.png?v=1613670542716)">
-        </div>
-        <h1 class="id_card-title">
-            Sci.＆ Tech
-        </h1>
-        <h2 class="id_card-description">
-            本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
+        
             
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
+        
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
-    
-
-                        <!-- 公告栏 -->
-                        
-
-                </div>
-            </div>
-
-
-
-            <div class="site-footer">
-  Powered by 为正义而战 | 
-  <a class="rss" href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a>
+    <div class="footer-info">
+        Powered by 为正义而战
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
 </div>
 
 <script>
@@ -189,12 +269,6 @@
 </script>
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
+</div>
 </body>
-
 </html>

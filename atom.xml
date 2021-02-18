@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-18T17:49:04.644Z</updated>
+    <updated>2021-02-18T17:58:06.710Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -21,9 +21,8 @@
 <img src="https://lvshuici.github.io//post-images/1613669248684.png" alt="" loading="lazy"><br>
 但是，中国有句古话说得好，道高一尺，魔高一丈！本着只要是人生产出来的电路板，我们团队就能破解的中心思想，我们团队对MKS_GEN_L V2.1主板进行了破解。<br>
 <img src="https://lvshuici.github.io//post-images/1613669812213.png" alt="" loading="lazy"><br>
-破解道路非常艰辛，过程相当坎坷，由于我们是第一次进行破解，很多元器件都不认识。这时候就需要万能的淘宝，这里不得不说淘宝的识图功能着实是太强大了，很多电子原件查丝印，再识图，基本上都能判断出来时什么元器件，就这样，截止到现在，我们还差驱动模块就破解完全部的电路了。😁😁😁<br>
-——————————————————————————————————————————————<br>
-或许也只有A1的图纸才能装下工程量如此浩大的原理图了。<br>
+破解道路非常艰辛，过程相当坎坷，由于我们是第一次进行破解，很多元器件都不认识。这时候就需要万能的淘宝，这里不得不说淘宝的识图功能着实是太强大了，很多电子原件查丝印，再识图，基本上都能判断出来时什么元器件，就这样，截止到现在，我们还差驱动模块就破解完全部的电路了。😁😁😁</p>
+<p>或许也只有A1的图纸才能装下工程量如此浩大的原理图了。<br>
 <img src="https://lvshuici.github.io//post-images/1613669974085.png" alt="" loading="lazy"></p>
 <p>破解接近尾声，寒假也快要结束，这么好的主板不分享出来还真的说不过去，我们凭着一份热爱（其实就是想少花钱😂😂😂）将这个主板破解出来，成为了第一个画出除驱动电路以外全部原理图的团队。MKS主板我们破解完就会将图片上传，做到真正的开源，让这个主板真正意义上得到开发！</p>
 ]]></content>
