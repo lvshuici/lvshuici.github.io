@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-18T15:05:36.993Z</updated>
+    <updated>2021-02-18T15:12:33.303Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -19,24 +19,24 @@
         <content type="html"><![CDATA[<p>一、基本参数的配置<br>
 （一）波特率的设置<br>
 将  #define BAUDRATE 115200  改成你需要的波特率，一般是250000<br>
-<img src="https://lvshuici.github.io//post-images/1613659729794.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661037912.png" alt="" loading="lazy"><br>
 （二）选择适配的主板<br>
 打开boards.h这个文件，就能看到相对应的适配主板型号了<br>
-<img src="https://lvshuici.github.io//post-images/1613659763231.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661054467.png" alt="" loading="lazy"><br>
 在这里咱们使用这个选项，这个选项代表一个ramps1.4的扩展版并且有一个喷嘴，下面的是指ramps1.4的扩展版并且有两个喷嘴<br>
-<img src="https://lvshuici.github.io//post-images/1613659795600.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661065466.png" alt="" loading="lazy"><br>
 （三）选择挤出机的数量和线材直径<br>
 我这里使用的是一个挤出头和1.75直径的打印材料<br>
-<img src="https://lvshuici.github.io//post-images/1613659818327.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661075712.png" alt="" loading="lazy"><br>
 （四）设置温度传感器<br>
 图示上方有关于温度传感器的设置选项，类别众多，需要自己看自己的热敏电阻代号是多少<br>
-<img src="https://lvshuici.github.io//post-images/1613659860611.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661083616.png" alt="" loading="lazy"><br>
 （五）设置温度保护<br>
 一般情况下，这个温度保护是可以在任何情况下使用<br>
-<img src="https://lvshuici.github.io//post-images/1613659879456.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661092537.png" alt="" loading="lazy"><br>
 （六）设置喷嘴最低工作温度<br>
 一般情况下，这个最低工作温度是可以在任何情况下使用<br>
-<img src="https://lvshuici.github.io//post-images/1613659902824.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613661106464.png" alt="" loading="lazy"><br>
 （七）限位开关的设置<br>
 如果在使用过程中限位开关无法被触发（接线正确），那么哪个地方的开关无法触发就把哪个位置的的false更改为true<br>
 <img src="https://lvshuici.github.io//post-images/1613659927040.png" alt="" loading="lazy"><br>
