@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-18T16:07:39.024Z</updated>
+    <updated>2021-02-18T16:32:48.780Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[marlin2.0固件参数配置]]></title>
+        <id>https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/</id>
+        <link href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">
+        </link>
+        <updated>2021-02-18T16:26:23.000Z</updated>
+        <content type="html"><![CDATA[<p>随着3D打印机不断升级，双Z轴，三Z轴，甚至四Z轴的打印机开始出现，同样的开源固件marlin也进行了升级，将Z轴同步数量加到了四个，但是市面上却很难买到支持四Z工作的3D打印机主板，更多的是双Z轴，所以本章主要介绍如何进行双Z轴的配置。<br>
+步骤非常的简单，只有三步：<br>
+设置Z轴个数，打开同步，设置偏值<br>
+<img src="https://lvshuici.github.io//post-images/1613665905852.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[marlin2.0固件参数修改（二）]]></title>
+        <id>https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/</id>
+        <link href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/">
+        </link>
+        <updated>2021-02-18T16:09:26.000Z</updated>
+        <content type="html"><![CDATA[<p>在marlin2.0固件参数修改（一）中我们提到了打印速度、加速度、同步轮设置的相关问题，这些参数的设置和打印质量、打印质量、打印效果密切相关，在本章我们就继续探讨一下关于marlin2.0的配置问题。</p>
+<p>在这里需要计算每一个电机的步数/毫米（step/mm），分别是XYZE的电机，尤其是E这里必须计算精准。<br>
+XY：1.8电机 16细分 2GT皮带 16齿同步轮 200x16/16x2=100 那么第一个数值和第二个数值就是100<br>
+Z：1.8电机 16细分 T8 8mm导程的丝杆 200x16/8=400 那么第三个数值就是400<br>
+E：7.4的挤出机齿轮直径 200x16/7.4=92 那么第四个数值就是92<br>
+下面的图只是我个人的打印机的参数，和刚刚计算的结果没有任何关系<br>
+<img src="https://lvshuici.github.io//post-images/1613664942913.png" alt="" loading="lazy"><br>
+这个是最高进给速度，这个只能慢慢调试，太快会容易丢步，但是满足一个规律，丝杆数值小，皮带速度快<br>
+<img src="https://lvshuici.github.io//post-images/1613664962197.png" alt="" loading="lazy"><br>
+这个是最大加速度设置，默认参数给的太大了，很容易丢步，下面的这个参数是非常保守的一个参数，但是同样的，打印时间也会增加<br>
+<img src="https://lvshuici.github.io//post-images/1613664983210.png" alt="" loading="lazy"><br>
+这个是默认打印加速度，下面是非常保守的设置，第一个是打印时的默认加速度，第二个是线材回抽时的加速度，第三个是移动加速度<br>
+<img src="https://lvshuici.github.io//post-images/1613665000531.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Marlin2.0固件参数修改（一）]]></title>
         <id>https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/</id>
