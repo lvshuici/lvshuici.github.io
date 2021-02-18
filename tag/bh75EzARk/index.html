@@ -1,158 +1,320 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
- <head>
+<html>
+
+<head>
     <meta charset="utf-8" />
-  <title>marlin | Sci.＆ Tech</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
- </head>
- <body>
-     <div class="sidebar animated fadeInDown">
-   <div class="logo-title">
-    <div class="title">
-     <img src="https://lvshuici.github.io//images/avatar.png?v=1613668008723" style="width:127px;" />
-
-     <div class="description">
-      <p>本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505</p>
-     </div>
-    </div>
-   </div>
-   <ul class="social-links">
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    marlin | Sci.＆ Tech
+</title>
+<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613668628258">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lvshuici.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-    
+</head>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-   </ul>
-   <div class="footer">
-    <div class="by_farbox">
-   Powered by 为正义而战
-    </div>
-    
-
-    </div>
-   </div>
-  </div>
-  <div class="main">
-      <div class="page-top animated fadeInDown">
+<body>
+    <div class="main">
+        <div class="header">
     <div class="nav">
-
-     <li><a  href="/">首页</a></li>
-
-     <li><a  href="/archives">归档</a></li>
-
-     <li><a  href="/tags">标签</a></li>
-
-
+        <div class="logo">
+            <a href="https://lvshuici.github.io/">
+                <img class="avatar" src="https://lvshuici.github.io//images/avatar.png?v=1613668628258" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Sci.＆ Tech
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-    <div class="information">
-     <div class="back_btn">
-      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
-     </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        marlin</b>
     </div>
-   </div>
-   <div class="autopagerize_page_element">
-    <div class="content">
-              
-     <div class="post animated fadeInDown">
-      <div class="post-title">
-       <h3><a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">marlin2.0固件参数配置（三）</a></h3>
-      </div>
-      <div class="post-content">
-       <p></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2021-02-19</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://lvshuici.github.io/tag/f1-cICLzX/" title="双Z轴的设置">双Z轴的设置 </a>
-         
-         <a class="tag" href="https://lvshuici.github.io/tag/bh75EzARk/" title="marlin">marlin </a>
-         
-        </div>
-       </div>
-      </div>
-     </div>
-       
-     <div class="post animated fadeInDown">
-      <div class="post-title">
-       <h3><a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/">marlin2.0固件参数修改（二）</a></h3>
-      </div>
-      <div class="post-content">
-       <p></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2021-02-19</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://lvshuici.github.io/tag/bh75EzARk/" title="marlin">marlin </a>
-         
-        </div>
-       </div>
-      </div>
-     </div>
-       
-     <div class="post animated fadeInDown">
-      <div class="post-title">
-       <h3><a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">Marlin2.0固件参数修改（一）</a></h3>
-      </div>
-      <div class="post-content">
-       <p></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2021-02-18</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://lvshuici.github.io/tag/bh75EzARk/" title="marlin">marlin </a>
-         
-        </div>
-       </div>
-      </div>
-     </div>
-     
-     <div class="pagination">
-      <ul class="clearfix">
-            
+    
         
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">
+                        marlin2.0固件参数配置（三）
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-02-19</time>
+                    
+                        <a href="https://lvshuici.github.io/tag/f1-cICLzX/" class="post-tag i-tag
+                            i-tag-banana">
+            #双Z轴的设置
+        </a>
+                        
+                        <a href="https://lvshuici.github.io/tag/bh75EzARk/" class="post-tag i-tag
+                            i-tag-other_4">
+            #marlin
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/" class="post-feature-image" style="background-image:url(https://lvshuici.github.io//post-images/marlin20-gu-jian-can-shu-pei-zhi.jpg) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            随着3D打印机不断升级，双Z轴，三Z轴，甚至四Z轴的打印机开始出现，同样的开源固件marlin也进行了升级，将Z轴同步数量加到了四个，但是市面上却很难买到支持四Z工作的3D打印机主板，更多的是双Z轴，所以本章主要介绍如何进行双Z轴的配置。
+步骤非常的简单，只有三步：
+设置Z轴个数，打开同步，设置偏值
 
-      </ul>
-     </div>
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/">
+                        marlin2.0固件参数修改（二）
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-02-19</time>
+                    
+                        <a href="https://lvshuici.github.io/tag/bh75EzARk/" class="post-tag i-tag
+                            i-tag-warning">
+            #marlin
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/" class="post-feature-image" style="background-image:url(https://lvshuici.github.io//post-images/marlin20-gu-jian-can-shu-xiu-gai-er.jpg) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            在marlin2.0固件参数修改（一）中我们提到了打印速度、加速度、同步轮设置的相关问题，这些参数的设置和打印质量、打印质量、打印效果密切相关，在本章我们就继续探讨一下关于marlin2.0的配置问题。
+在这里需要计算每一个电机的步数/毫米（step/mm），分别是XYZE的电机，尤其是E这里必须计算精准。
+XY：1.8电机 16细分 2GT皮带 16齿同步轮 200x16/16x2=100 那么第一个数值和第二个数值就是100
+Z：1.8电机 16细分 T8 8mm导程的丝杆 200x16/8=400 那么第三个数值就是400
+E：7.4的挤出机齿轮直径 200x16/7.4=92 那么第四个数值就是92
+下面的图只是我个人的打印机的参数，和刚刚计算的结果没有任何关系
+
+这个是最高进给速度，这个只能慢慢调试，太快会容易丢步，但是满足一个规律，丝杆数值小，皮带速度快
+
+这个是最大加速度设置，默认参数给的太大了，很容易丢步，下面的这个参数是非常保守的一个参数，但是同样的，打印时间也会增加
+
+这个是默认打印加速度，下面是非常保守的设置，第一个是打印时的默认加速度，第二个是线材回抽时的加速度，第三个是移动加速度
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">
+                        Marlin2.0固件参数修改（一）
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-02-18</time>
+                    
+                        <a href="https://lvshuici.github.io/tag/bh75EzARk/" class="post-tag i-tag
+                            i-tag-info">
+            #marlin
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/" class="post-feature-image" style="background-image:url(https://lvshuici.github.io//post-images/marlin20-gu-jian-can-shu-xiu-gai-yi.jpg) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            一、基本参数的配置
+（一）波特率的设置
+将  #define BAUDRATE 115200  改成你需要的波特率，一般是250000
+
+（二）选择适配的主板
+打开boards.h这个文件，就能看到相对应的适配主板型号了
+
+在这里咱们使用这个选项，这个选项代表一个ramps1.4的扩展版并且有一个喷嘴，下面的是指ramps1.4的扩展版并且有两个喷嘴
+
+（三）选择挤出机的数量和线材直径
+我这里使用的是一个挤出头和1.75直径的打印材料
+
+（四）设置温度传感器
+图示上方有关于温度传感器的设置选项，类别众多，需要自己看自己的热敏电阻代号是多少
+
+（五）设置温度保护
+一般情况下，这个温度保护是可以在任何情况下使用
+
+（六）设置喷嘴最低工作温度
+一般情况下，这个最低工作温度是可以在任何情况下使用
+
+（七）限位开关的设置
+如果在使用过程中限位开关无法被触发（接线正确），那么哪个地方的开关无法触发就把哪个位置的的false更改为true
+
+（八）步进电机驱动的设置
+一般情况默认A4988就可以了
+
+（九）设置换向参数
+如果驱动型号更换，并且在固件中有所体现，那么有很大可能性方向发生变化，需要在打印机调试的时候进行设置
+
+（十）限位最大最小的设置
+MAX=1  MIN=-1
+
+(十一)打印范围和Home坐标
+根据自己的打印范围来调整参数
+
+（十二）打印速度、加速度、同步轮等大量参数设置
+根据自己的挤出机，同步轮，结构等等自行设置参数，在这里不赘述相关操作。
+
+（十三）LCD及SD卡设置
+设置为中文（设置英文只需要把zh_CN改为en）
+
+支持脱机打印
+
+LCD2004（不支持中文，需要设置为英文）
+
+LCD12864（支持中文，需要设置为中文）
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lvshuici.github.io//images/avatar.png?v=1613668628258)">
+        </div>
+        <h1 class="id_card-title">
+            Sci.＆ Tech
+        </h1>
+        <h2 class="id_card-description">
+            本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
     </div>
-   </div>
-  </div>
-  <script src="https://lvshuici.github.io//media/scripts/jquery.js"></script>
-  <script src="https://lvshuici.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
-  <script src="https://lvshuici.github.io//media/scripts/jquery.appear.js"></script>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
 
 
- </body>
+
+            <div class="site-footer">
+  Powered by 为正义而战 | 
+  <a class="rss" href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
 </html>

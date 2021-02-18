@@ -1,138 +1,156 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
- <head>
-   <meta charset="utf-8" />
-  <title>Sci.＆ Tech</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
- </head>
- <body>
-         <div class="sidebar animated fadeInDown">
-   <div class="logo-title">
-    <div class="title">
-     <img src="https://lvshuici.github.io//images/avatar.png?v=1613668008723" style="width:127px;" />
+<html>
 
-     <div class="description">
-      <p>本网站于2021年2月19日建立，旨在分享一些有趣的软件，奇妙的思路，还有一些解决问题的办法。如果文章存在问题请联系我们：626799505</p>
-     </div>
-    </div>
-   </div>
-   <ul class="social-links">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Sci.＆ Tech
+</title>
+<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613668628258">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lvshuici.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-    
+</head>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-   </ul>
-   <div class="footer">
-    <div class="by_farbox">
-   Powered by 为正义而战
-    </div>
-    
-
-    </div>
-   </div>
-  </div>
-  <div class="main">
-          <div class="page-top animated fadeInDown">
+<body>
+    <div class="main">
+        <div class="header">
     <div class="nav">
-
-     <li><a  href="/">首页</a></li>
-
-     <li><a  href="/archives">归档</a></li>
-
-     <li><a  href="/tags">标签</a></li>
-
-
-    </div>
-    <div class="information">
-     <div class="back_btn">
-      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
-     </div>
-    </div>
-   </div>
-   <div class="autopagerize_page_element">
-    <div class="content">
-     <div class="archive animated fadeInDown">
-      <ul class="list-with-title">
-       <div class="archive">
-      
-      
-        <div class="listing-title">
-                2021
+        <div class="logo">
+            <a href="https://lvshuici.github.io/">
+                <img class="avatar" src="https://lvshuici.github.io//images/avatar.png?v=1613668628258" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Sci.＆ Tech
+                </h1>
+            </div>
         </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
 
-        <ul class="listing">
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            
+
+    <div class="archives-container main-container">
+        <ul class="timeline">
+            
+                <li>
+                    <h3 class="year">
+                        2021
+                    </h3>
+                    <ul class="year-wrapper">
+                        
+                            
+                                <li>
+                                    <span class="date">2021-02-19</span>
+                                    <a class="title" href="https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/">
+                                        <span>MKS_GEN_L V2.1 3D打印机主板</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                <li>
+                                    <span class="date">2021-02-19</span>
+                                    <a class="title" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">
+                                        <span>marlin2.0固件参数配置（三）</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                <li>
+                                    <span class="date">2021-02-19</span>
+                                    <a class="title" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/">
+                                        <span>marlin2.0固件参数修改（二）</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                <li>
+                                    <span class="date">2021-02-18</span>
+                                    <a class="title" href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">
+                                        <span>Marlin2.0固件参数修改（一）</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                    </ul>
+
+                </li>
+                
+        </ul>
+    </div>
 
                 
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/" title="marlin2.0固件参数配置（三）">marlin2.0固件参数配置（三）</a>
-           <div class="post-time">
-            <span class="date">2021-02-19 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-er/" title="marlin2.0固件参数修改（二）">marlin2.0固件参数修改（二）</a>
-           <div class="post-time">
-            <span class="date">2021-02-19 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-                             
-         <div class="listing-item">
-          <div class="listing-post">
-           <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/" title="Marlin2.0固件参数修改（一）">Marlin2.0固件参数修改（一）</a>
-           <div class="post-time">
-            <span class="date">2021-02-18 </span>
-           </div>
-          </div>
-         </div>
-         
-         
-        </ul>
-        	
-       </div>
-       <div class="pagination">
-        <ul class="clearfix"></ul>
-       </div>
-      </ul>
-     </div>
+
+                    <div class="site-footer">
+  Powered by 为正义而战 | 
+  <a class="rss" href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
     </div>
-   </div>
-  </div>
-   <script src="https://lvshuici.github.io//media/scripts/jquery.js"></script>
-  <script src="https://lvshuici.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
-  <script src="https://lvshuici.github.io//media/scripts/jquery.appear.js"></script>
+</body>
 
-
- </body>
 </html>
