@@ -1,104 +1,119 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>marlin2.0固件参数修改（二） | Sci.＆ Tech</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613666033588">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    marlin2.0固件参数修改（二） | Sci.＆ Tech
+</title>
+<link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1613666466006">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://lvshuici.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lvshuici.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
 
-  
+                    
+                            
+</head>
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="在marlin2.0固件参数修改（一）中我们提到了打印速度、加速度、同步轮设置的相关问题，这些参数的设置和打印质量、打印质量、打印效果密切相关，在本章我们就继续探讨一下关于marlin2.0的配置问题。
-在这里需要计算每一个电机的步数/毫米..." />
-    <meta name="keywords" content="marlin" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://lvshuici.github.io/">
-        <img src="https://lvshuici.github.io//images/avatar.png?v=1613666033588" class="site-logo">
-        <h1 class="site-title">Sci.＆ Tech</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://lvshuici.github.io/">
+                <img class="avatar" src="https://lvshuici.github.io//images/avatar.png?v=1613666466006" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Sci.＆ Tech
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      为正义而战
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">marlin2.0固件参数修改（二）</h2>
-            <div class="post-date">2021-02-19</div>
-            
-              <div class="feature-container" style="background-image: url('https://lvshuici.github.io//post-images/marlin20-gu-jian-can-shu-xiu-gai-er.jpg')">
-              </div>
-            
-            <div class="post-content" v-pre>
-              <p>在marlin2.0固件参数修改（一）中我们提到了打印速度、加速度、同步轮设置的相关问题，这些参数的设置和打印质量、打印质量、打印效果密切相关，在本章我们就继续探讨一下关于marlin2.0的配置问题。</p>
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            marlin2.0固件参数修改（二）
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-02-19</time>
+                            
+                                <a href="https://lvshuici.github.io/tag/bh75EzARk/" class="post-tag i-tag
+                            i-tag-warning">
+                            #marlin
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://lvshuici.github.io//post-images/marlin20-gu-jian-can-shu-xiu-gai-er.jpg')"></div>
+                            
+                                <div class="post-content">
+                                    <p>在marlin2.0固件参数修改（一）中我们提到了打印速度、加速度、同步轮设置的相关问题，这些参数的设置和打印质量、打印质量、打印效果密切相关，在本章我们就继续探讨一下关于marlin2.0的配置问题。</p>
 <p>在这里需要计算每一个电机的步数/毫米（step/mm），分别是XYZE的电机，尤其是E这里必须计算精准。<br>
 XY：1.8电机 16细分 2GT皮带 16齿同步轮 200x16/16x2=100 那么第一个数值和第二个数值就是100<br>
 Z：1.8电机 16细分 T8 8mm导程的丝杆 200x16/8=400 那么第三个数值就是400<br>
@@ -112,82 +127,100 @@ E：7.4的挤出机齿轮直径 200x16/7.4=92 那么第四个数值就是92<br>
 这个是默认打印加速度，下面是非常保守的设置，第一个是打印时的默认加速度，第二个是线材回抽时的加速度，第三个是移动加速度<br>
 <img src="https://lvshuici.github.io//post-images/1613665000531.png" alt="" loading="lazy"></p>
 
-            </div>
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">
+                                <h3 class="post-title">
+                                    Marlin2.0固件参数修改（一）
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://lvshuici.github.io//images/avatar.png?v=1613666466006)">
+        </div>
+        <h1 class="id_card-title">
+            Sci.＆ Tech
+        </h1>
+        <h2 class="id_card-description">
+            为正义而战
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
             
-              <div class="tag-container">
-                
-                  <a href="https://lvshuici.github.io/tag/bh75EzARk/" class="tag">
-                    marlin
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">
-                  <h3 class="post-title">
-                    Marlin2.0固件参数修改（一）
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
         </div>
-      </div>
     </div>
+    
+                                    
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+                </div>
 
-AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://lvshuici.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    </div>
     <script>
-
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
     </script>
-  
+    
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: '',
+            owner: '',
+            admin: [''],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
 
-  
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
 
+                    
+                                
+</body>
 
-
-
-  </body>
 </html>
