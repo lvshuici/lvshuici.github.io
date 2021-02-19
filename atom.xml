@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-19T02:20:45.463Z</updated>
+    <updated>2021-02-19T03:02:07.988Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[UM结构3D打印机BOM单]]></title>
+        <id>https://lvshuici.github.io/post/um-jie-gou-3d-da-yin-ji-bom-dan/</id>
+        <link href="https://lvshuici.github.io/post/um-jie-gou-3d-da-yin-ji-bom-dan/">
+        </link>
+        <updated>2021-02-19T02:23:25.000Z</updated>
+        <content type="html"><![CDATA[<p>我们团队在在寒假针对I3结构的3D打印机以及其固件进行了研究，并且设置了项目的主要开展人员，在自己研发过程中确实踩了很多坑。I3结构和悬臂式打印机由于其结构问题，基本上不会出现在大型机中。因为这两种都必须将惯性考虑进去，根据牛顿第一定律，所以基本出现于小型机。例如在穿越机模友中非常火的小鲁班3D打印机就采用的悬臂式打印机。当然这种I3或者悬臂式打印机也有他的优点，比如价格较低，DIY较为容易，而且之前说到的惯性问题其实是可以降低速度和加速度来解决的。<br>
+<img src="https://lvshuici.github.io//post-images/1613702394120.jpg" alt="" loading="lazy"><br>
+但是，本章我们要介绍的既不是什么I3结构的，也不是悬臂式的，而是一款UM结构的打印机，UM打印机有很多优点，例如打印稳定，打印受到的惯性可以忽略不记。但是缺点也是很致命的，例如DIY难度较大，调参非常麻烦等等，所以如果自己第一次设计并且DIY基本上是要凉凉的。❄️❄️❄️❄️❄️❄️<br>
+不过，总有伟大的人类将自己设计的无私东西分享出来，然后就多了一堆的白嫖怪（比如我）那么本章我们就说下这款3D打印机的BOM表单，如果认为价格可以接受，那么请关注本标签，我们还会持续更新。</p>
+<p>https://wws.lanzous.com/b01zxxtah密码:gu72<br>
+<img src="https://lvshuici.github.io//post-images/1613703643163.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MKS_GEN_L V2.1 3D打印机主板]]></title>
         <id>https://lvshuici.github.io/post/mks_gen_l-v21-3d-da-yin-ji-zhu-ban/</id>
