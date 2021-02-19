@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-19T07:18:00.847Z</updated>
+    <updated>2021-02-19T11:57:44.509Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[T12便携式烙台]]></title>
+        <id>https://lvshuici.github.io/post/t12-bian-xi-shi-luo-tai/</id>
+        <link href="https://lvshuici.github.io/post/t12-bian-xi-shi-luo-tai/">
+        </link>
+        <updated>2021-02-19T08:26:09.000Z</updated>
+        <content type="html"><![CDATA[<p>T12作为一款入门级别的烙台，却被很多人青睐。不是因为它的价格较低，也不是因为它的小巧，而是因为本身的性能优越，甚至不输一些高端的烙台。<br>
+在这里为什么叫便携式，是因为其本身小巧，只有一根笔的长度，更厉害的是里面集成了一颗ip2721的芯片，就是因为这个芯片所支持的快充协议，取代了之前的大型变压器，让typec搭配手机IP协议充电器就可以给这个烙台供电<br>
+<img src="https://lvshuici.github.io//post-images/1613723690158.jpeg" alt="" loading="lazy"><br>
+这个烙台最开始是国外的项目，后来经过一系列改版，打板，改程序才有了今天的适合中国人使用的烙台，感谢一系列开源作者将文件贡献出来</p>
+<p>https://wws.lanzous.com/b01zxza0f密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1613723870935.png" alt="" loading="lazy"></p>
+<p>不得不说，将手机快充芯片集成到一些低于100w的电路上工作是一个非常优秀的想法，于是我也在寒假试着制作了一款T12便携式电烙铁笔，同样采用的ip2721协议，但最高支持40w的供电，如果电压再高很有可能击穿一些元器件，从而将大电流直接通到atmega328p芯片，然后芯片发烫，直逼200℃（别问我咋知道的）😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭<br>
+<img src="https://lvshuici.github.io//post-images/1613734593372.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613734600595.png" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613734607079.jpg" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613734615503.jpg" alt="" loading="lazy"><br>
+最后焊接的成品大概是这个样子<br>
+<img src="https://lvshuici.github.io//post-images/1613734853009.jpg" alt="" loading="lazy"></p>
+<p>https://wws.lanzous.com/b01zxza0f密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1613735079331.png" alt="" loading="lazy"></p>
+<p>每一份开源的作品都有着作者日日夜夜、努力工作的身影，小到元器件的摆放，芯片的选取；大到整个电路板的布线，程序的烧写。最后的开源也只是因为热爱这个，想要让更多人了解到这些优秀的项目。<br>
+付出后或许物质上没有得到什么，但开源后的那份喜悦是每个开源人都真真切切感受到的。愿更多的优秀开源项目产生，愿中国的开源环境越来越好。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[lantern beam上网神器]]></title>
         <id>https://lvshuici.github.io/post/lantern-beam-shang-wang-shen-qi/</id>
