@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-19T03:02:07.988Z</updated>
+    <updated>2021-02-19T05:09:55.338Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[YOUTUBE绕过观影限制]]></title>
+        <id>https://lvshuici.github.io/post/youtube-rao-guo-guan-ying-xian-zhi/</id>
+        <link href="https://lvshuici.github.io/post/youtube-rao-guo-guan-ying-xian-zhi/">
+        </link>
+        <updated>2021-02-19T04:53:54.000Z</updated>
+        <content type="html"><![CDATA[<p>YOUTUBE中国人叫它油管，里面有非常好的关于科技、人文、国家、娱乐、音乐、动漫的视频，很多中国无法公开的视频在这里都能看到，但是如果有血腥暴力的场景就会产生观影限制，所以本章我们来主要介绍一下如何绕过观影限制。<br>
+<img src="https://lvshuici.github.io//post-images/1613710682393.png" alt="" loading="lazy"><br>
+首先我们找到了一个需要观影限制的视频，然后在地址栏中加上nsfw<br>
+<img src="https://lvshuici.github.io//post-images/1613710770643.png" alt="" loading="lazy"><br>
+跳转后的页面是这样的，然后我们点击 HERE 这样就能突破限制，观看影片了<br>
+<img src="https://lvshuici.github.io//post-images/1613710944503.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UM结构3D打印机BOM单]]></title>
         <id>https://lvshuici.github.io/post/um-jie-gou-3d-da-yin-ji-bom-dan/</id>
