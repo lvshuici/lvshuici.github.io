@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-19T06:28:52.501Z</updated>
+    <updated>2021-02-19T07:12:50.638Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[lantern beam上网神器]]></title>
+        <id>https://lvshuici.github.io/post/lantern-beam-shang-wang-shen-qi/</id>
+        <link href="https://lvshuici.github.io/post/lantern-beam-shang-wang-shen-qi/">
+        </link>
+        <updated>2021-02-19T06:32:49.000Z</updated>
+        <content type="html"><![CDATA[<p>lantern作为一款科学上网的神器，不光拥有电脑版，还有支持手机端的应用<br>
+<img src="https://lvshuici.github.io//post-images/1613716685887.jpg" alt="" loading="lazy"><br>
+beam同样是一款科学上网的神器，只拥有电脑版本<br>
+<img src="https://lvshuici.github.io//post-images/1613716974010.png" alt="" loading="lazy"><br>
+说起上网神器，其实就不得不提一下中国国家防火墙——中国长城（GFW），作为一个死死把控网络环境的防火墙，它能让国内的网络环境变得无比纯净。说一个不恰当的比喻，你的电脑的windefender就是那个中国长城，而外界的病毒或者对自己构成威胁的软件就是youtube、facebook、twitter<br>
+<img src="https://lvshuici.github.io//post-images/1613717565916.jpg" alt="" loading="lazy"><br>
+其实类似的国家防火墙还有咱们的领国俄罗斯、朝鲜、越南等等，每个国家都有自己的网络防火墙，只是防范程度不一样罢了<br>
+但防火墙是大面积的封锁，针对性不高，容易产生非常严重的误封，就像一些科研报告，权威数据库，必须翻墙才能看到，这个时候比较专业的V2ray出现了，但最近中国反间谍行动规模越来越大，导致这些节点封禁严重，V2ray几乎无法使用，所剩无几的节点延迟高的离谱<br>
+<img src="https://lvshuici.github.io//post-images/1613718344201.png" alt="" loading="lazy"><br>
+在这个特殊的时期，给大家推荐两款软件，lanter和beam，强烈推荐beam，非常的好用</p>
+<p>https://wws.lanzous.com/b01zxyt0d密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1613718543422.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[YOUTUBE绕过观影限制]]></title>
         <id>https://lvshuici.github.io/post/youtube-rao-guo-guan-ying-xian-zhi/</id>
