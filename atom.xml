@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-19T12:12:31.979Z</updated>
+    <updated>2021-02-21T04:53:48.104Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[TMC2208/2209 3D打印机驱动]]></title>
+        <id>https://lvshuici.github.io/post/tmc22082209-3d-da-yin-ji-qu-dong/</id>
+        <link href="https://lvshuici.github.io/post/tmc22082209-3d-da-yin-ji-qu-dong/">
+        </link>
+        <updated>2021-02-21T04:23:47.000Z</updated>
+        <content type="html"><![CDATA[<p>众所周知，打印机的驱动是一个打印机主板的关键组成部分，在一些厂家生产主板的时候，为了节省成本，也为了刺激消费者更新换代，直接将A4988这款3块钱驱动集成到主板上面。虽说对打印质量没有什么太大的影响，但是TMC2208/2209作为一款高端的驱动肯定有它高端的地方，抛去别的功能不说，静音效果可以说在整个打印机驱动领域来看还是非常优秀的<br>
+强大的功能和完美的静音效果那这个驱动必定价格不菲，的确如此，某宝TMC2209售价20元（不包邮），以我们之前介绍的UM结构双Z打印机来看，大概需要100多元才能解决驱动部分，价格确实相当的离谱😵<br>
+<img src="https://lvshuici.github.io//post-images/1613882583203.jpg" alt="" loading="lazy"><br>
+<img src="https://lvshuici.github.io//post-images/1613882589115.jpg" alt="" loading="lazy"><br>
+归根结底，价格如此高昂首先是使用的4层电路板，其次就是芯片比较贵。4层电路板是某些电脑主板原理上的PCB层数，但是为了稳定，主板厂将板层升为6层甚至8层，主板每多加2层几乎就要多填一个零，遇到像电脑主板这类高精密电子元件，价格更是非常的离谱，所以说，TMC2208/2209贵是有贵的道理的。<br>
+为了更直观让大家看到驱动的电路板是什么样子的，方便DIY人员制作，我们分享了该驱动的原理图和打板文件，需要的请自行下载<br>
+<img src="https://lvshuici.github.io//post-images/1613883006210.png" alt="" loading="lazy"><br>
+https://wws.lanzous.com/b01zy77ni密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1613883190478.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[T12便携式烙台]]></title>
         <id>https://lvshuici.github.io/post/t12-bian-xi-shi-luo-tai/</id>
