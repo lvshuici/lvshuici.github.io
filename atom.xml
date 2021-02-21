@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-21T05:06:26.409Z</updated>
+    <updated>2021-02-21T09:03:09.542Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[学风部2020级成绩统计]]></title>
+        <id>https://lvshuici.github.io/post/xue-feng-bu-2020-ji-cheng-ji-tong-ji/</id>
+        <link href="https://lvshuici.github.io/post/xue-feng-bu-2020-ji-cheng-ji-tong-ji/">
+        </link>
+        <updated>2021-02-21T08:00:07.000Z</updated>
+        <content type="html"><![CDATA[<p>一、2020成绩统计人员名单及负责内容：<br>
+魏宁：机电、车辆、机专成绩统计及20级最终成绩汇总<br>
+刘锦睿：机械成绩统计及各部门干事成绩汇总（可以参考学生组织大群）<br>
+二、统计主要内容：<br>
+（一）20级成绩统计的科目主要是：大学计算机A3、大学英语1、画法几何A......<br>
+（二）20级成绩平均学分绩的计算公式是：(科目1成绩×科目1学分+科目2成绩×科目2学分+......+科目n成绩×科目n学分)/(科目1学分+科目2学分+......+科目n学分)<br>
+（三）20级成绩平均学分绩点的计算公式是：(((科目1成绩/10)-5)×科目1学分+((科目2成绩/10)-5)×科目2学分+......+((科目n成绩/10)-5)×科目n学分)/(科目1学分+科目2学分+......+科目n学分)<br>
+（四）20级挂科率计算公式是：该班级的挂科总科目/该班级科目总数<br>
+三、注意事项：<br>
+（一）文件上必须带有公式，不得将公式删除，只保留数值<br>
+（二）体育成绩只进行统计，不纳入计算科目中<br>
+（三）涉及到小语种成绩要尤其注意，他们对应的学分是4<br>
+<img src="https://lvshuici.github.io//post-images/1613896750743.png" alt="" loading="lazy"><br>
+（四）首次统计时先以班级为单位进行统计，并按照学号进行排名<br>
+（五）汇总统计时要以专业为单位进行统计，（机电专业，机械专业，车辆专业，机专专业）并按照平均学分绩点进行排名<br>
+<img src="https://lvshuici.github.io//post-images/1613897006942.png" alt="" loading="lazy"><br>
+（六）最终汇总人员交付给我的文件应该注意以下几个问题<br>
+1.头层文件夹命名为20级成绩汇总，里面应该包含5个二层文件夹，命名分别为班级成绩汇总、机电成绩汇总、机械专业汇总、车辆专业汇总、机专成绩汇总<br>
+2.二层文件夹内必须有相对应的excel表格文件<br>
+3.交付给我的文件以zip压缩格式给我<br>
+（七）有任何问题请在第一时间联系我，防止发生返工，扰乱正常生活<br>
+（八）关于统计成绩的相关资料请访问以下地址，自行下载</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TMC2208/2209 3D打印机驱动]]></title>
         <id>https://lvshuici.github.io/post/tmc22082209-3d-da-yin-ji-qu-dong/</id>
