@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-22T03:48:19.700Z</updated>
+    <updated>2021-02-22T12:09:15.704Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -11,6 +11,40 @@
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
     <entry>
+        <title type="html"><![CDATA[学风部2019级成绩统计]]></title>
+        <id>https://lvshuici.github.io/post/xue-feng-bu-2019-ji-cheng-ji-tong-ji/</id>
+        <link href="https://lvshuici.github.io/post/xue-feng-bu-2019-ji-cheng-ji-tong-ji/">
+        </link>
+        <updated>2021-02-22T10:49:08.000Z</updated>
+        <content type="html"><![CDATA[<p>一、2020成绩统计人员名单及负责内容：<br>
+李昌昊：机电成绩统计及机专成绩统计及19级成绩汇总<br>
+蓝传杰：机械191-195成绩统计及各部门部长成绩汇总（可以参考学生组织大群）<br>
+张心语：机械196-198成绩统计及车辆成绩统计及成绩首次下放<br>
+二、统计主要内容：<br>
+（一）19级本科专业统计的科目是：大学物理A2、大学英语3、电工学A1......<br>
+19级专科专业统计的科目是：特种加工技术、机械制造工艺学、先进制造技术（JD）......<br>
+（二）19级成绩平均学分绩的计算公式是：(科目1成绩×科目1学分+科目2成绩×科目2学分+......+科目n成绩×科目n学分)/(科目1学分+科目2学分+......+科目n学分)<br>
+（三）19级成绩平均学分绩点的计算公式是：(((科目1成绩/10)-5)×科目1学分+((科目2成绩/10)-5)×科目2学分+......+((科目n成绩/10)-5)×科目n学分)/(科目1学分+科目2学分+......+科目n学分)<br>
+（四）19级挂科率计算公式是：该班级的挂科总科目/该班级科目总数<br>
+三、注意事项：<br>
+（一）文件上必须带有公式，不得将公式删除，只保留数值<br>
+（二）体育成绩只进行统计，不纳入计算科目中<br>
+（三）涉及到小语种成绩要尤其注意，他们对应的学分是4<br>
+<img src="https://lvshuici.github.io//post-images/1613994063465.png" alt="" loading="lazy"><br>
+（四）统计时先以班级为单位进行统计，并按照学号进行排名<br>
+（五）汇总统计时要以专业为单位进行统计，（机电专业，机械专业，车辆专业，机专专业）并按照平均学分绩点进行排名<br>
+<img src="https://lvshuici.github.io//post-images/1613994257137.png" alt="" loading="lazy"><br>
+（六）最终汇总人员交付给我的文件应该注意以下几个问题<br>
+1.头层文件夹命名为19级成绩汇总，里面应该包含5个二层文件夹，命名分别为班级成绩汇总、机电成绩汇总、机械专业汇总、车辆专业汇总、机专成绩汇总<br>
+2.二层文件夹内必须有相对应的excel表格文件<br>
+3.交付给我的文件以zip压缩格式给我<br>
+（七）有任何问题请在第一时间联系我，防止发生返工，扰乱正常生活<br>
+（八）关于统计成绩的相关资料请访问以下地址，自行下载<br>
+https://wws.lanzous.com/b01zydk7g密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1613995723811.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[学风部2020级成绩统计]]></title>
         <id>https://lvshuici.github.io/post/xue-feng-bu-2020-ji-cheng-ji-tong-ji/</id>
         <link href="https://lvshuici.github.io/post/xue-feng-bu-2020-ji-cheng-ji-tong-ji/">
@@ -18,7 +52,7 @@
         <updated>2021-02-21T08:00:07.000Z</updated>
         <content type="html"><![CDATA[<p>一、2020成绩统计人员名单及负责内容：<br>
 魏宁：机电、车辆、机专成绩统计及20级最终成绩汇总<br>
-刘锦睿：机械成绩统计及各部门干事成绩汇总（可以参考学生组织大群）<br>
+刘锦睿：机械成绩统计及班级挂科率及各部门干事成绩汇总（可以参考学生组织大群）<br>
 二、统计主要内容：<br>
 （一）20级成绩统计的科目主要是：大学计算机A3、大学英语1、画法几何A......<br>
 （二）20级成绩平均学分绩的计算公式是：(科目1成绩×科目1学分+科目2成绩×科目2学分+......+科目n成绩×科目n学分)/(科目1学分+科目2学分+......+科目n学分)<br>
@@ -29,7 +63,7 @@
 （二）体育成绩只进行统计，不纳入计算科目中<br>
 （三）涉及到小语种成绩要尤其注意，他们对应的学分是4<br>
 <img src="https://lvshuici.github.io//post-images/1613896750743.png" alt="" loading="lazy"><br>
-（四）首次统计时先以班级为单位进行统计，并按照学号进行排名<br>
+（四）统计时先以班级为单位进行统计，并按照学号进行排名<br>
 （五）汇总统计时要以专业为单位进行统计，（机电专业，机械专业，车辆专业，机专专业）并按照平均学分绩点进行排名<br>
 <img src="https://lvshuici.github.io//post-images/1613897006942.png" alt="" loading="lazy"><br>
 （六）最终汇总人员交付给我的文件应该注意以下几个问题<br>
@@ -181,62 +215,6 @@ E：7.4的挤出机齿轮直径 200x16/7.4=92 那么第四个数值就是92<br>
 <img src="https://lvshuici.github.io//post-images/1613664983210.png" alt="" loading="lazy"><br>
 这个是默认打印加速度，下面是非常保守的设置，第一个是打印时的默认加速度，第二个是线材回抽时的加速度，第三个是移动加速度<br>
 <img src="https://lvshuici.github.io//post-images/1613665000531.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marlin2.0固件参数修改（一）]]></title>
-        <id>https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/</id>
-        <link href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-xiu-gai-yi/">
-        </link>
-        <updated>2021-02-18T14:46:45.000Z</updated>
-        <content type="html"><![CDATA[<p>一、基本参数的配置<br>
-（一）波特率的设置<br>
-将  #define BAUDRATE 115200  改成你需要的波特率，一般是250000<br>
-<img src="https://lvshuici.github.io//post-images/1613661037912.png" alt="" loading="lazy"><br>
-（二）选择适配的主板<br>
-打开boards.h这个文件，就能看到相对应的适配主板型号了<br>
-<img src="https://lvshuici.github.io//post-images/1613661054467.png" alt="" loading="lazy"><br>
-在这里咱们使用这个选项，这个选项代表一个ramps1.4的扩展版并且有一个喷嘴，下面的是指ramps1.4的扩展版并且有两个喷嘴<br>
-<img src="https://lvshuici.github.io//post-images/1613661065466.png" alt="" loading="lazy"><br>
-（三）选择挤出机的数量和线材直径<br>
-我这里使用的是一个挤出头和1.75直径的打印材料<br>
-<img src="https://lvshuici.github.io//post-images/1613661075712.png" alt="" loading="lazy"><br>
-（四）设置温度传感器<br>
-图示上方有关于温度传感器的设置选项，类别众多，需要自己看自己的热敏电阻代号是多少<br>
-<img src="https://lvshuici.github.io//post-images/1613661083616.png" alt="" loading="lazy"><br>
-（五）设置温度保护<br>
-一般情况下，这个温度保护是可以在任何情况下使用<br>
-<img src="https://lvshuici.github.io//post-images/1613661092537.png" alt="" loading="lazy"><br>
-（六）设置喷嘴最低工作温度<br>
-一般情况下，这个最低工作温度是可以在任何情况下使用<br>
-<img src="https://lvshuici.github.io//post-images/1613661106464.png" alt="" loading="lazy"><br>
-（七）限位开关的设置<br>
-如果在使用过程中限位开关无法被触发（接线正确），那么哪个地方的开关无法触发就把哪个位置的的false更改为true<br>
-<img src="https://lvshuici.github.io//post-images/1613659927040.png" alt="" loading="lazy"><br>
-（八）步进电机驱动的设置<br>
-一般情况默认A4988就可以了<br>
-<img src="https://lvshuici.github.io//post-images/1613659951597.png" alt="" loading="lazy"><br>
-（九）设置换向参数<br>
-如果驱动型号更换，并且在固件中有所体现，那么有很大可能性方向发生变化，需要在打印机调试的时候进行设置<br>
-<img src="https://lvshuici.github.io//post-images/1613659969068.png" alt="" loading="lazy"><br>
-（十）限位最大最小的设置<br>
-MAX=1  MIN=-1<br>
-<img src="https://lvshuici.github.io//post-images/1613659984400.png" alt="" loading="lazy"><br>
-(十一)打印范围和Home坐标<br>
-根据自己的打印范围来调整参数<br>
-<img src="https://lvshuici.github.io//post-images/1613660029270.png" alt="" loading="lazy"><br>
-（十二）打印速度、加速度、同步轮等大量参数设置<br>
-根据自己的挤出机，同步轮，结构等等自行设置参数，在这里不赘述相关操作。<br>
-<img src="https://lvshuici.github.io//post-images/1613660061927.png" alt="" loading="lazy"><br>
-（十三）LCD及SD卡设置<br>
-设置为中文（设置英文只需要把zh_CN改为en）<br>
-<img src="https://lvshuici.github.io//post-images/1613660124236.png" alt="" loading="lazy"><br>
-支持脱机打印<br>
-<img src="https://lvshuici.github.io//post-images/1613660145067.png" alt="" loading="lazy"><br>
-LCD2004（不支持中文，需要设置为英文）<br>
-<img src="https://lvshuici.github.io//post-images/1613660166915.png" alt="" loading="lazy"><br>
-LCD12864（支持中文，需要设置为中文）<br>
-<img src="https://lvshuici.github.io//post-images/1613660183992.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
