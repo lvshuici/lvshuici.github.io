@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>MKS_GEN_L V2.1 3D打印机主板 | Sci.＆ Tech</title>
+<title>学风成绩整理脚本 | Sci.＆ Tech</title>
 
 <link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1614075149206">
 
@@ -194,32 +194,28 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    MKS_GEN_L V2.1 3D打印机主板
+                    学风成绩整理脚本
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2021-02-19 ·
+                        · 2021-02-23 ·
                     </time>
-                    
-                        <a href="https://lvshuici.github.io/tag/RgS0gbktx/" class="post-tags">
-                            # MKS主板
-                        </a>
-                    
-                        <a href="https://lvshuici.github.io/tag/A6o5ExiBG_/" class="post-tags">
-                            # 3D打印
-                        </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>MKS作为专门定做3D打印机方案的公司，对3D打印机主板以及触控屏的设计方案已经非常成熟，尤其是3D打印主板，不光将mage2560和ramps1.4以及外接屏显模块集成，更是将外扩设备的数量上升到新的高度，12V长通接口可以作为挤出机风扇接口，12V的可控风扇接口可以直接连接鼓风机，通过上位机直接控制转速，从而达到控制风量的效果。这些成熟的方案是mage2560+ramps1.4无法比拟的，不光是从高度体积还是性能上都大大超越了mega2560+ramps1.4的方案。主板虽然非常好用，价格同样也很美丽。<br>
-☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️☢️<br>
-<img src="https://lvshuici.github.io//post-images/1613669248684.png" alt="" loading="lazy"><br>
-但是，中国有句古话说得好，道高一尺，魔高一丈！本着只要是人生产出来的电路板，我们团队就能破解的中心思想，我们团队对MKS_GEN_L V2.1主板进行了破解。<br>
-<img src="https://lvshuici.github.io//post-images/1613669812213.png" alt="" loading="lazy"><br>
-破解道路非常艰辛，过程相当坎坷，由于我们是第一次进行破解，很多元器件都不认识。这时候就需要万能的淘宝，这里不得不说淘宝的识图功能着实是太强大了，很多电子原件查丝印，再识图，基本上都能判断出来时什么元器件，就这样，截止到现在，我们还差驱动模块就破解完全部的电路了。😁😁😁</p>
-<p>或许也只有A1的图纸才能装下工程量如此浩大的原理图了。<br>
-<img src="https://lvshuici.github.io//post-images/1613669974085.png" alt="" loading="lazy"></p>
-<p>破解接近尾声，寒假也快要结束，这么好的主板不分享出来还真的说不过去，我们凭着一份热爱（其实就是想少花钱😂😂😂）将这个主板破解出来，成为了第一个画出除驱动电路以外全部原理图的团队。MKS主板我们破解完就会将图片上传，做到真正的开源，让这个主板真正意义上得到开发！</p>
+                    <p>学风部整理成绩是一项极其浩大的工程，由于格式不统一、绩点算法多变、加上许多人为因素导致成绩统计过程极其漫长，很容易把人搞崩溃。去年暑假在整理成绩时，由于人员调配不合理，导致当年有些干事从上午9点一直干到第二天凌晨3点也没有弄完。在我把这件事情跟素质拓展中心刘部说明后，在这个寒假刘部自学了python语言并且开发了一款针对于学风部简化统计成绩的脚本，可以说大大简化了我们在统计成绩的时候翻看数据库的步骤，让整个流程变得更加简单，也更节省时间<br>
+代码非常精炼，只有七八十行，但因为运行库较为庞大，所以最后形成可执行文件比较大（有31M）<br>
+<img src="https://lvshuici.github.io//post-images/1614073660470.png" alt="" loading="lazy"><br>
+学风部自成立以来就一直保持着人工整理数据库的方法，耗时而且容易出错，所以最后审核的干事是最累最辛苦的，我也经历过这些，所以我也能明白其中的辛苦，真的是能把人搞崩溃，也是从暑假统计成绩那次开始，我就想着一定要弄出一个简化软件<br>
+我尝试过很多方法，我们小组也提过许多关于这方面的建议。但在当时我们所进行的还是有关kali的研究，所以只是明白一些黑客工具<br>
+偶然的机会，我接触到了单片机，我也尝试过使用单片机来进行统计，比如黑客工具：badusb<br>
+badusb作为一款黑客工具，主要利用了USB接口关于外接键盘的漏洞，一个硬币大小的单片机却被计算机当成的键盘，计算机这个时候就会开始读取里面的代码从而执行。但是不得不说，badusb作为黑客工具确实好用，但要拿来弄成绩整理简直有点鸡肋<br>
+<img src="https://lvshuici.github.io//post-images/1614073935354.png" alt="" loading="lazy"><br>
+首先是他的内存，badusb内存特别小，而且编程语言是C++，由于代码复杂，编写后的内存较大，根本无法烧录进去，如果想要烧录，那么只能外接树莓派作为存储<br>
+其次是编写的难度，用C++来编写这类程序，非常的难，而且本人对代码也是几乎一窍不通所以这个计划也就被迫中止了<br>
+好在这个寒假，刘部成功的开发出来了这个脚本，不然回学校那帮干事能哭着统计完。这个脚本的开发也可以说彻底终极了学风部最大的噩梦，也让学风部的工作轻松了许多<br>
+https://wws.lanzous.com/b01zyhm9e密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1614075146715.png" alt="" loading="lazy"></p>
 
                 </div>
             </article>
@@ -228,8 +224,8 @@
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/" class="post-title gt-a-link">
-                    marlin2.0固件参数配置（三）
+                <a href="https://lvshuici.github.io/post/xue-feng-bu-2019-ji-cheng-ji-tong-ji/" class="post-title gt-a-link">
+                    学风部2019级成绩统计
                 </a>
             </div>
         
