@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-24T13:40:29.178Z</updated>
+    <updated>2021-02-24T13:42:52.121Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -27,7 +27,7 @@ badusb作为一款黑客工具，主要利用了USB接口关于外接键盘的�
 首先是他的内存，badusb内存特别小，而且编程语言是C++，由于代码复杂，编写后的内存较大，根本无法烧录进去，如果想要烧录，那么只能外接树莓派作为存储<br>
 其次是编写的难度，用C++来编写这类程序，非常的难，而且本人对代码也是几乎一窍不通所以这个计划也就被迫中止了<br>
 好在这个寒假，刘部成功的开发出来了这个脚本，不然回学校那帮干事能哭着统计完。这个脚本的开发也可以说彻底终极了学风部最大的噩梦，也让学风部的工作轻松了许多<br>
-刘部也在原有的基础上进行了升级，将班级这一列加到脚本上，实现了迅速的统计<br>
+刘部也在原有的基础上进行了升级，将班级这一列加到脚本上，实现了迅速的统计，并且不需要每次统计完都需要打开这个脚本，这个设定会让脚本变得更加人性化，更加方便<br>
 https://wws.lanzous.com/b01zyhm9e密码:1234<br>
 <img src="https://lvshuici.github.io//post-images/1614075146715.png" alt="" loading="lazy"></p>
 ]]></content>
