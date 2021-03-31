@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-02-24T13:42:52.121Z</updated>
+    <updated>2021-03-31T04:02:06.861Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://lvshuici.github.io/images/avatar.png</logo>
     <icon>https://lvshuici.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sci.＆ Tech</rights>
+    <entry>
+        <title type="html"><![CDATA[TMC2225 3D打印机驱动]]></title>
+        <id>https://lvshuici.github.io/post/tmc2225-3d-da-yin-ji-qu-dong/</id>
+        <link href="https://lvshuici.github.io/post/tmc2225-3d-da-yin-ji-qu-dong/">
+        </link>
+        <updated>2021-03-31T03:25:23.000Z</updated>
+        <content type="html"><![CDATA[<p>之前，我们给大家介绍了一款3D打印机驱动——TMC2208/2209，这款打印机驱动虽然是大电流，但是由于使用的芯片贵，加工工艺（四层板）难度高，所以最后制作出来的成品价格过于昂贵。<br>
+<img src="https://lvshuici.github.io//post-images/1617162055267.jpeg" alt="" loading="lazy"><br>
+所以，这款打印机驱动不建议大家购买使用。<br>
+为了解决芯片价格和加工工艺的问题，TMC2225静音驱动就研发出来了。改驱动采用的芯片和TMC2208芯片完全不同，而且只需要正常的两层板加工工艺即可。价格非常亲民，淘宝上也基本上15元就能拿下一个，自己制作成本可能更低。<br>
+<img src="https://lvshuici.github.io//post-images/1617162288736.png" alt="" loading="lazy"><br>
+下图为TMC2225打印机驱动的原理图<br>
+<img src="https://lvshuici.github.io//post-images/1617162413376.png" alt="" loading="lazy"><br>
+下面将打印机的打板文件分享给大家，需要的可以自行下单，打板制作<br>
+https://wws.lanzous.com/b02025rli    密码:1234<br>
+<img src="https://lvshuici.github.io//post-images/1617163144133.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[学风成绩整理脚本]]></title>
         <id>https://lvshuici.github.io/post/xue-feng-cheng-ji-zheng-li-jiao-ben/</id>
@@ -211,18 +229,6 @@ beam同样是一款科学上网的神器，只拥有电脑版本<br>
 <p>或许也只有A1的图纸才能装下工程量如此浩大的原理图了。<br>
 <img src="https://lvshuici.github.io//post-images/1613669974085.png" alt="" loading="lazy"></p>
 <p>破解接近尾声，寒假也快要结束，这么好的主板不分享出来还真的说不过去，我们凭着一份热爱（其实就是想少花钱😂😂😂）将这个主板破解出来，成为了第一个画出除驱动电路以外全部原理图的团队。MKS主板我们破解完就会将图片上传，做到真正的开源，让这个主板真正意义上得到开发！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[marlin2.0固件参数配置（三）]]></title>
-        <id>https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/</id>
-        <link href="https://lvshuici.github.io/post/marlin20-gu-jian-can-shu-pei-zhi/">
-        </link>
-        <updated>2021-02-18T16:26:23.000Z</updated>
-        <content type="html"><![CDATA[<p>随着3D打印机不断升级，双Z轴，三Z轴，甚至四Z轴的打印机开始出现，同样的开源固件marlin也进行了升级，将Z轴同步数量加到了四个，但是市面上却很难买到支持四Z工作的3D打印机主板，更多的是双Z轴，所以本章主要介绍如何进行双Z轴的配置。<br>
-步骤非常的简单，只有三步：<br>
-设置Z轴个数，打开同步，设置偏值<br>
-<img src="https://lvshuici.github.io//post-images/1613665905852.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
