@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvshuici.github.io/</id>
     <title>Sci.＆ Tech</title>
-    <updated>2021-03-31T04:02:06.861Z</updated>
+    <updated>2021-03-31T04:02:48.493Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvshuici.github.io/"/>
     <link rel="self" href="https://lvshuici.github.io/atom.xml"/>
@@ -19,7 +19,7 @@
         <content type="html"><![CDATA[<p>之前，我们给大家介绍了一款3D打印机驱动——TMC2208/2209，这款打印机驱动虽然是大电流，但是由于使用的芯片贵，加工工艺（四层板）难度高，所以最后制作出来的成品价格过于昂贵。<br>
 <img src="https://lvshuici.github.io//post-images/1617162055267.jpeg" alt="" loading="lazy"><br>
 所以，这款打印机驱动不建议大家购买使用。<br>
-为了解决芯片价格和加工工艺的问题，TMC2225静音驱动就研发出来了。改驱动采用的芯片和TMC2208芯片完全不同，而且只需要正常的两层板加工工艺即可。价格非常亲民，淘宝上也基本上15元就能拿下一个，自己制作成本可能更低。<br>
+为了解决芯片价格和加工工艺的问题，TMC2225静音驱动就研发出来了。该驱动采用的芯片和TMC2208芯片完全不同，而且只需要正常的两层板加工工艺即可。价格非常亲民，淘宝上也基本上15元就能拿下一个，自己制作成本可能更低。<br>
 <img src="https://lvshuici.github.io//post-images/1617162288736.png" alt="" loading="lazy"><br>
 下图为TMC2225打印机驱动的原理图<br>
 <img src="https://lvshuici.github.io//post-images/1617162413376.png" alt="" loading="lazy"><br>
