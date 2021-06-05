@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>TMC2225 3D打印机驱动 | Sci.＆ Tech</title>
+<title>arduino 笔记（一） | Sci.＆ Tech</title>
 
 <link rel="shortcut icon" href="https://lvshuici.github.io//favicon.ico?v=1622912558841">
 
@@ -194,32 +194,33 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    TMC2225 3D打印机驱动
+                    arduino 笔记（一）
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2021-03-31 ·
+                        · 2021-06-06 ·
                     </time>
-                    
-                        <a href="https://lvshuici.github.io/tag/7stn_NBdo/" class="post-tags">
-                            # 3D打印机驱动
-                        </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>之前，我们给大家介绍了一款3D打印机驱动——TMC2208/2209，这款打印机驱动虽然是大电流，但是由于使用的芯片贵，加工工艺（四层板）难度高，所以最后制作出来的成品价格过于昂贵。<br>
-<img src="https://lvshuici.github.io//post-images/1617162055267.jpeg" alt="" loading="lazy"><br>
-所以，这款打印机驱动不建议大家购买使用。<br>
-为了解决芯片价格和加工工艺的问题，TMC2225静音驱动就研发出来了。该驱动采用的芯片和TMC2208芯片完全不同，而且只需要正常的两层板加工工艺即可。价格非常亲民，淘宝上也基本上15元就能拿下一个，自己制作成本可能更低。<br>
-<img src="https://lvshuici.github.io//post-images/1617162288736.png" alt="" loading="lazy"><br>
-下图为TMC2225打印机驱动的原理图<br>
-<img src="https://lvshuici.github.io//post-images/1617162413376.png" alt="" loading="lazy"><br>
-注意：J1焊接后直接进入SpreadCycle模式，静音效果会变差<br>
-J2焊接后可以使用外部输入信号作为2225的时钟<br>
-跳线一般只焊接J3（选择PDN_UART连接到的引脚）<br>
-下面将打印机的打板文件分享给大家，需要的可以自行下单，打板制作<br>
-https://wws.lanzous.com/b02025rli    密码:1234<br>
-<img src="https://lvshuici.github.io//post-images/1617163144133.png" alt="" loading="lazy"></p>
+                    <p>setup()：<br>
+当Arduino程序开始运行时会调用setup()函数。通常我们setup()函数其中初始化一些变量、引脚状态及一些调用的库等。当Arduino控制器通电或复位后，setup函数会运行一次。</p>
+<p>loop()：<br>
+在setup()函数对程序完成了初始化后，loop()函数将会运行。loop函数是一个循环体，在Arduino启动后，loop()函数中的程序将会不断运行。通过loop()函数你可以利用你的程序来控制Arduino，并使Arduino根据你的程序进行相应的反应。</p>
+<p>output：当引脚设置为输出（OUTPUT）模式时，引脚为低阻抗状态。这意味着Arduino可以向其它电路元器件提供电流。也就是说，Arduino引脚在输出（OUTPUT）模式下可以点亮LED或者驱动电机。（如果被驱动的电机需要超过40mA的电流，Arduino将需要三极管或其它辅助元件来驱动他们。）<br>
+<strong>注意：Arduino引脚不能直接接地或直接与Arduino＋5V／＋3.3V引脚相连，否则可能损坏Arduino控制器。Arduino需要配合使用上拉电阻或者下拉电阻方能进行上述操作。</strong></p>
+<p>void setup() {<br>
+// 程序只进行一次<br>
+pinMode(5, OUTPUT); //初始化5引脚为输出模式，如果后面使用digitalwrite必须先初始化<br>
+}</p>
+<p>void loop() {<br>
+//程序循环运行<br>
+int delayTime = 5000;  //设置整数变量delayTime等于5<br>
+digitalWrite(5, HIGH);   // 设置5号脚位为高电平<br>
+delay(delayTime);                       // 等待5s<br>
+digitalWrite(5, LOW);    // 设置5号脚位为低电平<br>
+delay(1000);                       // 等待1s<br>
+}</p>
 
                 </div>
             </article>
@@ -228,8 +229,8 @@ https://wws.lanzous.com/b02025rli    密码:1234<br>
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://lvshuici.github.io/post/xue-feng-cheng-ji-zheng-li-jiao-ben/" class="post-title gt-a-link">
-                    学风成绩整理脚本
+                <a href="https://lvshuici.github.io/post/tmc2225-3d-da-yin-ji-qu-dong/" class="post-title gt-a-link">
+                    TMC2225 3D打印机驱动
                 </a>
             </div>
         
